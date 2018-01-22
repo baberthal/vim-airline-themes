@@ -71,3 +71,9 @@ let g:airline#themes#jml#palette.inactive = airline#themes#generate_color_map(s:
 let g:airline#themes#jml#palette.inactive_modified = {
       \ 'airline_c': [s:gui_orange, '', s:cterm_orange, '', ''],
       \ }
+
+" Accents
+let g:airline#themes#jml#palette.accents = {
+      \ 'rvm_rubyversion': [s:gui_red, '', s:cterm_red, '', ''],
+      \ 'rvm_gemset': [s:gui_blue, '', s:cterm_blue, '', '']
+      \ }
